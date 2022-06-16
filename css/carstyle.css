@@ -1,0 +1,506 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.header a:hover {
+    color: #adaaa3;
+    background: none;
+}
+
+
+
+header .img {
+    display: flex;
+}
+
+.fa-house {
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 60px;
+}
+
+.jct {
+    margin-left: 1800px;
+
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    background: #d6a620;
+    padding: 10px 20px;
+    border-radius: 70px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    padding: 2%;
+}
+
+.location {
+    overflow: auto;
+    text-align: center;
+    background: #edeff2;
+}
+
+    .location h3 {
+        font-family: Lato;
+        font-weight: 900;
+        margin: 50px 0 0;
+        font-size: 50px;
+        color: #d6a620;
+    }
+
+/*  header  */
+
+header {
+    height: 130px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    box-shadow: 0 0 10px #555;
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+.audi {
+    margin-left: 30px;
+}
+
+.jct {
+
+}
+
+a {
+    text-decoration: none;
+    color: #423f3f;
+}
+
+
+/*   home   */
+
+.home {
+    height: 1000px;
+    padding-top: 10rem;
+    text-align: center;
+    overflow: hidden;
+    background: #daeaf5;
+}
+
+    .home h1 {
+        font-size: 90px;
+        font-family: Sarpanch;
+        color: #423f3f;
+    }
+
+a:hover {
+    background: #f0bd75;
+    transition: 0.5s;
+}
+
+.btn {
+    color: #172c4f;
+    font-family: Lato;
+    font-weight: 400;
+    background: #d6a620;
+    padding: 10px 60px;
+    border-radius: 70px;
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+
+.home img{
+    width: 90%;
+    margin: 1rem 0;
+    margin-bottom: 30px;
+}
+
+/*    section     */
+
+section {
+    padding: 5px 5px;
+    
+}
+
+.heading {
+    font-family: Lato;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #172c4f;
+}
+
+.heading span {
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+}
+
+    .heading span::before {
+        content: '';
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: #d6a620;
+        clip-path: polygon(25% 90%, 100% 70%, 100% 100%, 0% 100%);
+    }
+
+
+/*     sections      */
+
+.vehicles .vehicles-slider {
+    padding-bottom: 5rem;
+}
+
+.vehicles .vehicles-slider .box{
+    text-align: center;
+
+}
+
+.vehicles .vehicles-slider .box img {
+    
+    opacity: 0.5;
+    transform: scale(0.8);
+
+}
+
+.vehicles .vehicles-slider .box .content {
+    transform: scale(0);
+    font-family: Lato;
+    font-weight: 400;
+}
+
+    .vehicles .vehicles-slider .swiper-slide-active img {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .vehicles .vehicles-slider .swiper-slide-active .content {
+        transform: scale(1);
+    }
+
+    .vehicles .vehicles-slider .box .content h3 {
+        font-size: 2.5rem;
+        color: #172c4f;
+    }
+
+    .vehicles .vehicles-slider .box .content .price {
+        font-size: 2.5rem;
+        color: #d6a620;
+        font-weight: bolder;
+    }
+
+    .vehicles .vehicles-slider .box .content .price span {
+            font-size: 2rem;
+            color: #66696e;
+            font-weight: normal;
+    }
+
+    .vehicles .vehicles-slider .box .content p {
+        font-size: 1.7rem;
+        color: #66696e;
+        margin-bottom: 45px;
+    }
+
+    .border {
+        border: 1px solid #345;
+        margin-top: 25px;
+    }
+
+.vehicles .vehicles-slider .box .content p span {
+    color: #d6a620; 
+    padding: 0 15px;
+}
+
+.services {
+    background: url(repair.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    margin-top: 40px;
+}
+
+.services .box-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+    .services .box-container .box {
+        text-align: center;
+        width: 650px;
+        padding: 30px;
+        border-style: solid;
+        background: #daeaf5;
+        border-radius: 10px;
+        border-color: #ebe6e6;
+        height: 300px;
+        box-shadow: 5px 15px 20px black;
+    }
+
+        .services .box-container .box h3 {
+            font-family: Lato;
+            font-weight: 900;
+            font-size: 2rem;
+            color: #172c4f;
+        }
+
+        .services .box-container .box p {
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 1.4rem;
+            color: #66696e;
+        }
+
+
+.heading2 {
+    font-family: Lato;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.heading2 span {
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+}
+
+    .heading2 span::before {
+        content: '';
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: #d6a620;
+        clip-path: polygon(25% 90%, 100% 70%, 100% 100%, 0% 100%);
+    }
+
+.services .box-container .box i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: black;
+    background: #d6a620;
+    border-radius: 50%;
+  
+}
+.btn2 {
+    color: #172c4f;
+    font-family: Lato;
+    font-weight: 400;
+    background: #d6a620;
+    padding: 10px 60px;
+    border-radius: 70px;
+    font-size: 20px;
+    margin: 30px 50px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contact {
+    background: #edeff2;
+    height: 900px;
+}
+
+.inner-contact {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background: #daeaf5;
+    border-radius: 10px;
+    border-color: #ebe6e6;
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 15px 20px black;
+}
+
+    .contact .row {
+        margin-top: 10px;
+        gap: 1.5rem;
+        width: 600px;
+    }
+
+.contact .row .box {
+    margin: 0.7rem 0;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.contact h3 {
+    font-size: 20px;
+}
+
+.contact .btn {
+    border: none;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.send:hover {
+    cursor: pointer;
+    background: #f0bd75;
+    transition: 0.5s;
+}
+
+
+
+/*  footer  */
+
+footer {
+    font-family: Lato;
+    font-weight: 400;
+    color: white;
+}
+
+.footertop {
+    padding: 30px;
+    background: #333634;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer input {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 20px;
+    font-size: 16px;
+}
+
+footer h6 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+footer hr {
+    border-color: #d6a620;
+}
+
+.footerbottom {
+    height: 100px;
+    background: #d6a620;
+    text-align: center;
+    font-size: 24px;
+    font-family: Lato;
+    line-height: 100px;
+}
+
+footer span:hover {
+    color: #d6a620;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer span {
+    padding: 0 5px;
+}
+
+/*   media queries  */
+@media screen and (max-width:768px) {
+    body {
+        width: 100vh;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .home {
+        max-height: 700px;
+    }
+
+    .services .box-container {
+        display: block;
+        margin-left: 60px;
+    }
+    .services {
+        min-height: 1450px;
+        
+    }
+
+}
+
+@media screen and (max-width:1900px) {
+
+    .vehicles img{
+        height: 400px;
+        width: 530px
+    }
+}
+
+@media screen and (max-width:1354px) {
+
+    .vehicles img {
+        height: 260px;
+        width: 390px
+    }
+}
+
+@media screen and (max-width:922px) {
+
+    .vehicles img {
+        height: 200px;
+        width: 330px
+    }
+}
+
+@media screen and (max-width:2300px) {
+    .jct {
+        margin-left: 1500px;
+    }
+    
+}
+
+@media screen and (max-width:1942px) {
+    .jct {
+        margin-left: 1200px;
+    }
+}
+
+@media screen and (max-width:1640px) {
+    .jct {
+        margin-left: 900px;
+    }
+}
+
+@media screen and (max-width:1340px) {
+    .jct {
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width:938px) {
+    .jct {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .jct {
+        margin-left: 70px;
+    }
+}
